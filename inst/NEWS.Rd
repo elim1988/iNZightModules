@@ -2,12 +2,14 @@
 \title{Change Log for iNZightModules}
 \encoding{UTF-8}
 
+# Added Maps module
+
 \section{Changes in version 1.2}{
-  Release date: TBA
-  
-  \subsection{NEW FEATURES}{
+  Release date: 25 August 2015
+
+  \subsection{BUG FIXES}{
     \itemize{
-      \item Added the iNZightMaps module for analysing geological data
+      \item Import entire \code{iNZightTools} package
     }
   }
 }
@@ -24,7 +26,7 @@
 
 \section{Changes in version 1.0.8}{
   Release date: 18 March 2015
-  
+
   \subsection{BUG FIXES}{
     \itemize{
       \item fix a bug where iNZightTS wasn't being imported properly
@@ -34,7 +36,7 @@
 
 \section{Changes in version 1.0.7}{
   Release date: 23 February 2015
-  
+
   \subsection{BUG FIXES}{
     \itemize{
       \item remove RGL from NAMESPACE completely
@@ -44,7 +46,7 @@
 
 \section{Changes in version 1.0.6}{
   Release date: 04 February 2015
-  
+
   \subsection{BUG FIXES}{
     \itemize{
       \item fix an issue where RGL causes R on some Windows 8 machines to crash
@@ -54,7 +56,7 @@
 
 \section{Changes in version 1.0.5}{
   Release date: 27 November 2014
-  
+
   \subsection{MINOR CHANGES}{
     \itemize{
       \item add scrollbars to Time Series window if it doesn't fit on
@@ -80,7 +82,7 @@
       \item  2-variable explore plots in the Quick Explore menu
     }
   }
-  
+
   \subsection{MINOR CHANGES}{
     \itemize{
       \item Changes to the time series module to allow specification of
@@ -94,7 +96,7 @@
 \section{Changes in version 1.0.2}{
   \subsection{MINOR CHANGES}{
     \itemize{
-      \item the pairs/scatter plot matrix draws a jittered dotplot rather than a 
+      \item the pairs/scatter plot matrix draws a jittered dotplot rather than a
       barcode plot.
     }
   }
@@ -108,8 +110,8 @@
 
 \section{Changes in version 1.0.0}{
   This is the first release of this package, although it was previously
-  bundled inside the iNZight package. 
-  
+  bundled inside the iNZight package.
+
   \subsection{MAJOR CHANGES}{
     \itemize{
 
@@ -134,7 +136,7 @@
 
       \item 3D scatter plot and comparison matrix plot have both been
       rewritten in `gWidgets2`.
-      
+
     }
   }
 }

@@ -1,5 +1,4 @@
 export(modelFitting, multipleResponseWindow, mrSummaryWindow, plot3D,
        scatterPlotMatrix, timeSeries, allUniPlots, allBivarPlots, iNZightMaps)
-import(iNZightRegression, iNZightMR, iNZightTS, mgcv, survey, barcode, gpairs)
-importFrom(iNZightTools, fitModel, fitDesign)
+import(iNZightRegression, iNZightMR, iNZightTS, iNZightTools, mgcv, survey, barcode, gpairs)
 export(barcode)
